@@ -1,6 +1,9 @@
 const navButton = document.querySelector(".nav__button");
+const body = document.querySelector("body");
 const header = document.querySelector("header");
 const navMenu = document.querySelector(".nav__menu");
+
+body.style.height = `${window.innerHeight}px`;
 
 navMenu.style.top = `${header.clientHeight + 2}px`;
 

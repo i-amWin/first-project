@@ -1,11 +1,11 @@
 :root {
   --ff: "Inter", sans-serif;
 
-  --fs-100: 0.675rem; /* 10px */
-  --fs-200: 0.725rem; /* 12px */
-  --fs-300: 0.8rem; /* 11px */
+  --fs-100: 0.7rem; /* 11.2px */
+  --fs-200: 0.75rem; /* 12px */
+  --fs-300: 0.8rem; /* 12.8px */
   --fs-400: 1rem; /* 16px */
-  --fs-500: 1.625rem; /* 26px */
+  --fs-500: 1.7rem; /* 27.2px */
   --fs-600: 1.875rem; /* 30px */
 
   --clr-neutral-100: hsl(0, 0%, 100%);
@@ -38,7 +38,7 @@ a {
 }
 
 body {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   font-family: var(--ff);
   background-color: var(--clr-neutral-200); 
   overflow-x: hidden;
