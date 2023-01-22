@@ -84,7 +84,7 @@ header {
 .nav__button {
   all: unset;
   padding: 13px 4px;
-  border: 1px solid var(--clr-primary-200);
+  border: 2px solid var(--clr-primary-200);
   border-radius: 3px;
 }
 
@@ -95,7 +95,7 @@ header {
   width: 25px;
   height: 4px;
 
-  background-color: var(--clr-primary-100);
+  background-color: var(--clr-primary-200);
   border-radius: 100vmax;
 
   transform-origin: center;
@@ -109,7 +109,7 @@ header {
   width: 25px;
   height: 4px;
 
-  background-color: var(--clr-primary-100);
+  background-color: var(--clr-primary-200);
   border-radius: inherit;
 
   transition: top var(--transition-time) ease var(--transition-time), transform var(--transition-time) ease;  
