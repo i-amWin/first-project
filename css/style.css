@@ -184,6 +184,7 @@ header {
   transition: transform 250ms ease-in;
 }
 
+.nav__link:hover::after,
 .nav__link:hover::after {
   transform: scaleX(1);
 }
@@ -222,4 +223,10 @@ main {
   padding: .6em 1.7em;
   border-radius: 100vmax;
   cursor: pointer;
+  transition: background-color 150ms;
+}
+
+.btn:hover, 
+.btn:focus {
+  background-color: hsl(210, 94%, 55%);
 }
