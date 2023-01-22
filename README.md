@@ -1,2 +1,2 @@
 # first-project
-This is my frontend project.
+This is my first frontend project.
